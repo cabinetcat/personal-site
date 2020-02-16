@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <link rel="stylesheet" type="text/css" href="css/index.css">
+      <link rel="icon" href="res/icon.png">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   </head>
+   <body>
+       <?php
+       $ $_GET["name"]
+       ?>
+
+    <div id="page">
+        <div id="sidebar">
+            <ul>
+                <li id="name" onclick=Navigate(0)><h3>Hunter Wheat</h3></li>
+                <li onclick=Navigate(1)>Programming</li>
+                <li onclick=Navigate(2)>Music</li>
+                <li onclick=Navigate(3)>Digital Art</li>
+            </ul>
+        </div>
+        <div id="content">
+            <div class="box">
+                <div class="title">
+                <h1>Hunter Wheat</h1>
+
+            </div>
+            <p>Hey welcome to my site! I am a student studying Computer Engineering at UC Santa Cruz. Here you can find of my past and ongoing work.</p>
+            </div>
+            <div class="box">
+                <div class="title">
+                    <h1>Programming</h1> 
+                    <ul class="gauge">
+                        
+                        <li>Object Pascal: </li>
+                        <li class="a"><h2>■</h2></li>
+                        <li class="b">■</li>
+                        <li class="c">■</li>
+                        <li class="d">■</li>
+                        <li>CSS: </li>
+                        <li class="a">■</li>
+                        <li class="b">■</li>
+                        <li class="c"><h2>■</h2></li>
+                        <li class="d">■</li>
+                        <li>Java: </li>
+                        <li class="a">■</li>
+                        <li class="b">■</li>
+                        <li class="c">■</li>
+                        <li class="d"><h2>■</h2></li>
+                        
+                        
+                    </ul>
+                    <ul class="gauge">
+                        <li>HTML: </li>
+                        <li class="a">■</li>
+                        <li class="b"><h2>■</h2></li>
+                        <li class="c">■</li>
+                        <li class="d">■</li>
+                        <li>Python: </li>
+                        <li class="a">■</li>
+                        <li class="b"><h2>■</h2></li>
+                        <li class="c">■</li>
+                        <li class="d">■</li>
+                        <li>C#: </li>
+                        <li class="a">■</li>
+                        <li class="b">■</li>
+                        <li class="c">■</li>
+                        <li class="d"><h2>■</h2></li>
+                        <li>PHP: </li>
+                        <li class="a"><h2>■</h2></li>
+                        <li class="b">■</li>
+                        <li class="c">■</li>
+                        <li class="d">■</li>
+                        
+                    </ul>
+                    <ul class="gauge">
+                        <li>SQL: </li>
+                        <li class="a">■</li>
+                        <li class="b"><h2>■</h2></li>
+                        <li class="c">■</li>
+                        <li class="d">■</li>
+                        <li>Javascript: </li>
+                        <li class="a">■</li>
+                        <li class="b">■</li>
+                        <li class="c"><h2>■</h2></li>
+                        <li class="d">■</li>
+                    </ul>
+                </div>
+                <ul id="projects">
+                    <li><a href="https://studiorobin.itch.io/inversus">InVersus</a>, a platformer game developed by Studio Robin</li>
+                    <li><a href="https://github.com/cabinetcat/FletchPas">FletchPas</a>, a library iplementation of Fletcher's checksum in Delphi/FreePascal</li>
+                    <li><a href="https://github.com/cabinetcat/FunlUserClient">Funl</a>, a websocket-based P2P chat client</li>
+                    <li><a href="https://github.com/cabinetcat/BudCalc">BudCalc</a>, a handy calculator to help you determine the cost of your weed</li>
+                    <li><a href="https://github.com/cabinetcat/dynaranks">DynaRanks</a>, multi-game speedrun rankings</li>
+                    <li><a href="https://github.com/cabinetcat/personal-website">This Website!</a></li>
+                </ul>
+            </div>
+            <div class="box">
+                <div class="title">
+                <h1>Music</h2>
+                </div>
+                    <div class="panel">
+                        <div class="panelmedia">
+                            <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/744099898&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+                        </div>
+                    <h3>captain</h3>   
+                    <p>2020</p>
+                    </div>
+                    <div class="panel">
+                        <div class="panelmedia">
+                            <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/757914931&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe> 
+                        </div>
+                    <h3>InVersus Theme</h3>   
+                    <p>2020</p>   
+                    </div>
+            </div>
+            <div class="box">
+                <h1>Digital Art</h2>
+
+            </div>
+        </div>
+    </div>
+    <div id="social-bar">
+        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a><br>
+        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a><br>
+        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a><br>
+        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+    </div>
+      <script>
+         window.onload = Main;
+         function Main()
+         {
+            window.scrollTo(0, 0);
+         }
+         function Navigate(Index)
+         {
+            Element = document.getElementsByClassName("box")[Index];
+            Element.scrollIntoView();
+         }
+      </script>
+   </body>
+</html>

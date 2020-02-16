@@ -1,0 +1,156 @@
+#sidebar
+{
+    float: left;
+    height: 200px;
+    padding: 40px;
+    padding-right: 0px;
+    width: fit-content;
+    overflow-x: hidden;
+    position: fixed;
+}
+#projects li
+{
+    margin-bottom: 10px;
+}
+#content
+{
+    margin-left: 243.47px;
+}
+.gauge
+{
+    width: fit-content;
+    line-height: normal;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 10px;
+    list-style-type: none;
+
+  overflow: hidden;
+}
+#social-bar
+{
+    float:right;
+    font-size: larger;
+    background-color: #29302B;
+    width: fit-content;
+    height: fit-content;
+}
+.gauge li
+{
+    font-size: smaller;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: fit-content;
+    display: inline-block;
+
+  text-decoration: none;
+}
+.gauge .a
+{
+
+    color: red;
+    
+}
+.gauge .b
+{
+    color: orange;
+}
+.gauge .c
+{
+    color: greenyellow;
+}
+.gauge .d
+{
+    color: green;
+}
+.gauge h2
+{
+
+    padding: 0px;
+    margin: 0px;
+}
+#content
+{
+    
+    line-height: 2rem;
+}
+#content h1
+{
+    margin: 0px;
+    margin-bottom: 5px;
+    width: 80%;
+}
+#content h3
+{
+    margin: 0px;
+}
+a 
+{
+    color: #2C74E0;
+}
+.title
+{
+    height: fit-content;
+    border-bottom: solid 1px #f6f8f7;
+    margin-bottom: 20px;
+}
+.panel
+{
+    height: 166px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.panelmedia
+{
+    float: left;
+    width: 50%;
+    padding-right: 10px;
+    height:fit-content;
+}
+body
+{
+
+    color: #EFECE9;
+    font-family: OCR A Std, monospace ;
+    margin: 0px;
+    background-image: url(../res/bg.png);
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+#page
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #29302B;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    height: 1600px;
+}
+#sidebar ul
+{
+    float: left;
+    width: fit-content;
+    border-right: solid 1px #f6f8f7;
+    list-style: none;
+    margin: 0px;
+}
+#sidebar li
+{
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-right: 40px;
+}
+.box
+{
+    padding: 40px;
+    height: fit-content;
+}
+#sidebar li:hover
+{
+    opacity: 60%;
+}
+#sidebar h3
+{
+    margin: 0px;
+
+}
