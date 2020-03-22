@@ -30,7 +30,7 @@
 }
 #social-bar
 {
-    float:right;
+    float:left;
     font-size: larger;
     background-color: #29302B;
     width: fit-content;
@@ -48,25 +48,28 @@
 }
 .gauge .a
 {
-
+    font-size: large;
     color: red;
     
 }
 .gauge .b
 {
+    font-size: large;
     color: orange;
 }
 .gauge .c
 {
+    font-size: large;
     color: greenyellow;
 }
 .gauge .d
 {
+    font-size: large;
     color: green;
 }
 .gauge h2
 {
-
+    
     padding: 0px;
     margin: 0px;
 }
